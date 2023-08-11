@@ -1,34 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
 }
-:root{
-  --redprimary:#9E0031;  
-  --redsecondary:#8E0045;
-  --purpleprimary:#770058;
-  --purplesecondary:#600047;
-  --dark:#44001A;
+
+:root {
+    --redprimary: #9E0031;
+    --redsecondary: #8E0045;
+    --purpleprimary: #770058;
+    --purplesecondary: #600047;
+    --dark: #44001A;
 }
+
 /*#region header */
-header{
+header {
     background-color: var(--redprimary);
     height: 5rem;
     text-align: center;
     font-size: larger;
 }
-header h1{
+
+header h1 {
     color: var(--dark);
 }
+
 /*#endregion header */
 /*#region jumbutron */
-.debug .jumbutron{
-    border: dashed;
+.debug .jumbutron {
+  /*   border: dashed; */
 }
-.jumbutron{
-    width: 100%;
-    height: 20rem;
 
+.jumbutron {
+    width: 100%;
+    height: 520px;
+    background-image: url(/images/cover-bg.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
 }
+.jumbutron h1{
+    color: white;
+}
+
 /*#endregion umbutron */
