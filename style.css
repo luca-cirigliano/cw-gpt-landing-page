@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  --redprimary:#9E0031;  
+  --redsecondary:#8E0045;
+  --purpleprimary:#770058;
+  --purplesecondary:#600047;
+  --dark:#44001A;
+}
