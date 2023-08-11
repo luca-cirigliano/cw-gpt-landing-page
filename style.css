@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
 }
 :root{
   --redprimary:#9E0031;  
@@ -10,3 +11,24 @@
   --purplesecondary:#600047;
   --dark:#44001A;
 }
+/*#region header */
+header{
+    background-color: var(--redprimary);
+    height: 5rem;
+    text-align: center;
+    font-size: larger;
+}
+header h1{
+    color: var(--dark);
+}
+/*#endregion header */
+/*#region jumbutron */
+.debug .jumbutron{
+    border: dashed;
+}
+.jumbutron{
+    width: 100%;
+    height: 20rem;
+
+}
+/*#endregion umbutron */
